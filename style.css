@@ -1,29 +1,53 @@
+@font-face {
+    font-family: 'BarlowSemiCondensed-Medium';
+    src: url('./fonts/BarlowSemiCondensed-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'BarlowSemiCondensed-SemiBold';
+    src: url('./fonts/BarlowSemiCondensed-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'BarlowSemiCondensed-Regular';
+    src: url('./fonts/BarlowSemiCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html
 {
-    background-image: url(images/favicon-32x32.png)  fixed center ;
+    background-image: url(images/favicon-32x32.png) fixed center ;
     background: couverture;
 }
+
 main
 {
     display: flex;
     flex-direction: row;
     align-items: top;
     justify-content: space-evenly;
-    width: 1400px;
+    width: 1600px;
     height: 900px;
     margin: 50px auto 50px auto;
     background-color: #EDF2F8;
     padding: 50px 5px 20px 5px;
+    
 }
 
 .container
 {
-    width: 1000px;
+    width: 1200px;
     height: 900px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .element
@@ -32,26 +56,27 @@ main
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 30%;
+    width: 31%;
     height: 42%;
     padding: 20px;
     border-radius: 15px;
-    text-align:justify;
-
+    font-size: 28px;
+    text-align: left;
 }
 
 .element:nth-child(1)
 {
     width: 59%;
     height: 42%;
-    background-color: #733FC8;
-    background-image: url(images/bg-pattern-quotation.svg); /* fixe this .... */
+    background: #733FC8 ;
 }
 
 .element:nth-child(2)
 {
     width: 31%;
     background-color: #49556B;
+    margin-right: 10px;
+    color: #FFF;
 }
 
 .element:nth-child(3)
@@ -65,6 +90,9 @@ main
     margin-top: -10px;
     width: 59%;
     background-color: #18202D;
+    margin-right: 10px;
+    color: #FFF;
+
 }
 
 .kira
@@ -76,7 +104,9 @@ main
     margin: 0px auto auto 0px;
     padding: 20px;
     background-color: #FFF;
-    text-align: justify;
+    color: #989A9D;
+    font-family:  'BarlowSemiCondensed-SemiBold', sans-serif;
+    font-size: 18px;
 }
 
 .element, .kira
@@ -88,7 +118,7 @@ span
 {
     display: block;
     align-content: column;
-    font-size: 1.1rem;
+    font-size: 1rem;
     width: 220px;
     margin: 4px 0 0 70px;
  
@@ -98,6 +128,8 @@ span
 img
 {
     float: left;
+    width: 50px;
+    height: 50px;
     margin: 0px;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -121,15 +153,72 @@ img[title="photo-patrick"]
 /* font layout */
 
 
+.kira p:first-of-type
+{
+    font-family:  'BarlowSemiCondensed-SemiBold', sans-serif;
+    font-size: 28px;
+    white-space: pre-wrap;
+    opacity: 1;
+    color: black;
+    line-height: 2rem;
+}
+.kira span:first-of-type
+{
+    color: black;
+}
+.kira p, .daniel p, .jonathan P, .jeanette p, .patrick p
+{
+    font-family: 'BarlowSemiCondensed-Medium', Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 1.6rem;
+    opacity: 0.6;
+    margin-left: 1.3rem;
+}
 
+.kira img
+{
+    width: 55px;
+    height: 55px;
+}
 
+.kira span
+{
+    font-size: 0.9rem;
+}
 
+.daniel
+{
+    color: #e5e6e9
+}
 
+.element p:first-of-type
+{
+    font-family:  'BarlowSemiCondensed-SemiBold', sans-serif;
+    font-size: 28px;
+    white-space: pre-wrap;
+    opacity: 1;
+    line-height: 2rem;  
+}
 
+.element span, .element p
+{
+    opacity: 0.6;
+}
 
+.element span:first-of-type
+{
+    opacity: 1;
+}
 
-
-
+.daniel
+{
+    background-image: url("images/bg-pattern-quotation.svg") ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position-x: 480px;
+    background-size: 115px;
+}
 
 
 
