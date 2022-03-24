@@ -1,0 +1,138 @@
+html
+{
+    background-image: url(images/favicon-32x32.png)  fixed center ;
+    background: couverture;
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-evenly;
+    width: 1400px;
+    height: 900px;
+    margin: 50px auto 50px auto;
+    background-color: #EDF2F8;
+    padding: 50px 5px 20px 5px;
+}
+
+.container
+{
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.element
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 42%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align:justify;
+
+}
+
+.element:nth-child(1)
+{
+    width: 59%;
+    height: 42%;
+    background-color: #733FC8;
+    background-image: url(images/bg-pattern-quotation.svg); /* fixe this .... */
+}
+
+.element:nth-child(2)
+{
+    width: 31%;
+    background-color: #49556B;
+}
+
+.element:nth-child(3)
+{
+    margin-top: -10px;
+    background-color: #FFF;
+}
+
+.element:nth-child(4)
+{
+    margin-top: -10px;
+    width: 59%;
+    background-color: #18202D;
+}
+
+.kira
+{
+
+    width: 310px;
+    height: 91%;
+    border-radius: 15px;
+    margin: 0px auto auto 0px;
+    padding: 20px;
+    background-color: #FFF;
+    text-align: justify;
+}
+
+.element, .kira
+{
+    box-shadow: 4px 8px 2px #D2D6DD;
+}
+
+span
+{
+    display: block;
+    align-content: column;
+    font-size: 1.1rem;
+    width: 220px;
+    margin: 4px 0 0 70px;
+ 
+}
+
+/* profil image*/
+img
+{
+    float: left;
+    margin: 0px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.unfloat
+{
+    clear: both;
+}
+
+img[title="photo-daniel"]
+{
+    border: 2px solid A775F2;
+}
+
+img[title="photo-patrick"]
+{
+    border: 2px solid #733FC8;
+}
+
+/* font layout */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
