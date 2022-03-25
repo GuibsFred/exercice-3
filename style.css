@@ -103,13 +103,12 @@ main
     width: 320px;
     height: 71%;
     border-radius: 15px;
-    margin: 110px 120px -40px 0px;
+    margin: 113px 120px -40px 0px;
     padding: 40px;
     background-color: #FFF;
     color: #989A9D;
     font-family:  'BarlowSemiCondensed-SemiBold', sans-serif;
     font-size: 18px;
-    border: solid 1px black;
 }
 
 .element, .kira
