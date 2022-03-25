@@ -31,23 +31,23 @@ main
     flex-direction: row;
     align-items: top;
     justify-content: space-evenly;
-    width: 1600px;
-    height: 900px;
-    margin: 50px auto 50px auto;
+    width: 1900px;
+    height: 1080px;
     background-color: #EDF2F8;
-    padding: 50px 5px 20px 5px;
-    
+    margin: 10% auto auto 10%;
+    padding: 50px 5px 20px 5px;    
 }
 
 .container
 {
-    width: 1200px;
-    height: 900px;
+    width: 1800px;
+    height: 1080px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 .element
@@ -57,56 +57,59 @@ main
     justify-content: space-between;
     flex-wrap: wrap;
     width: 31%;
-    height: 42%;
-    padding: 20px;
+    height: 30%;
+    padding: 40px;
     border-radius: 15px;
-    font-size: 28px;
+    font-size: 30px;
     text-align: left;
 }
 
 .element:nth-child(1)
 {
-    width: 59%;
-    height: 42%;
+    width: 48%;
+    height: 30%;
     background: #733FC8 ;
+    margin-right: 40px;
 }
 
 .element:nth-child(2)
 {
-    width: 31%;
+    width: 24%;
+    height: 30%;
     background-color: #49556B;
-    margin-right: 10px;
+    margin-right: 40px;
     color: #FFF;
 }
 
 .element:nth-child(3)
 {
-    margin-top: -10px;
+    width: 24%;
+    margin: -180px 40px 0 0;
     background-color: #FFF;
 }
 
 .element:nth-child(4)
 {
-    margin-top: -10px;
-    width: 59%;
+    margin: -185px 40px 0 0;
+    width: 48%;
+    height: 30%;
     background-color: #18202D;
-    margin-right: 10px;
     color: #FFF;
-
 }
 
 .kira
 {
 
-    width: 310px;
-    height: 91%;
+    width: 320px;
+    height: 71%;
     border-radius: 15px;
-    margin: 0px auto auto 0px;
-    padding: 20px;
+    margin: 110px 120px -40px 0px;
+    padding: 40px;
     background-color: #FFF;
     color: #989A9D;
     font-family:  'BarlowSemiCondensed-SemiBold', sans-serif;
     font-size: 18px;
+    border: solid 1px black;
 }
 
 .element, .kira
@@ -118,19 +121,19 @@ span
 {
     display: block;
     align-content: column;
-    font-size: 1rem;
+    font-size: 1.3rem;
     width: 220px;
     margin: 4px 0 0 70px;
- 
+
 }
 
 /* profil image*/
 img
 {
     float: left;
-    width: 50px;
-    height: 50px;
-    margin: 0px;
+    width: 35px;
+    height: 35px;
+    margin-left: 0px;
     border-radius: 50%;
     border: 2px solid #fff;
 }
@@ -160,31 +163,43 @@ img[title="photo-patrick"]
     white-space: pre-wrap;
     opacity: 1;
     color: black;
-    line-height: 2rem;
+    line-height: 2.1rem;
+    margin-top: 20px;
 }
 .kira span:first-of-type
 {
+    display: block;
+    align-content: column;
+    font-size: 1.3rem;
+    width: 220px;
+    margin: 6px 0 0 70px;
     color: black;
+    margin-top: -5px;
+    padding: 0;
 }
+
 .kira p, .daniel p, .jonathan P, .jeanette p, .patrick p
 {
-    font-family: 'BarlowSemiCondensed-Medium', Arial, Helvetica, sans-serif;
+    font-family: 'BarlowSemiCondensed-Regular', Arial, Helvetica, sans-serif;
     padding-right: 20px;
-    font-size: 18px;
-    line-height: 1.6rem;
-    opacity: 0.6;
-    margin-left: 1.3rem;
+    padding-top: 2px;
+    font-size: 17px;
+    line-height: 1.7rem;
+    opacity: 0.8;
+    margin-left: 5px 0 0 1.3rem;
 }
 
 .kira img
 {
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
 }
 
 .kira span
 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 70px;
 }
 
 .daniel
@@ -195,7 +210,7 @@ img[title="photo-patrick"]
 .element p:first-of-type
 {
     font-family:  'BarlowSemiCondensed-SemiBold', sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     white-space: pre-wrap;
     opacity: 1;
     line-height: 2rem;  
@@ -209,6 +224,7 @@ img[title="photo-patrick"]
 .element span:first-of-type
 {
     opacity: 1;
+    margin-top: -10px;
 }
 
 .daniel
@@ -216,8 +232,8 @@ img[title="photo-patrick"]
     background-image: url("images/bg-pattern-quotation.svg") ;
     background-position: top;
     background-repeat: no-repeat;
-    background-position-x: 480px;
-    background-size: 115px;
+    background-position-x: 440px;
+    background-size: 140px;
 }
 
 
